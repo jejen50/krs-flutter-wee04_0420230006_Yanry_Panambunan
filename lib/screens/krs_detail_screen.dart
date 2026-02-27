@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class KrsDetailScreen extends StatelessWidget {
   final int totalCredits;
 
-  KrsDetailScreen(this.totalCredits);
+  const KrsDetailScreen(this.totalCredits, {super.key});
 
   @override
   Widget build(BuildContext context) {

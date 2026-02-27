@@ -7,7 +7,7 @@ import '../models/user_model.dart';
 class DashboardScreen extends StatelessWidget {
   final User user;
 
-  DashboardScreen({required this.user});
+  const DashboardScreen({super.key, required this.user});
 
   @override
   Widget build(BuildContext context) {
